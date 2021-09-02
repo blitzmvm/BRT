@@ -1,3 +1,0 @@
-  8/30/2021 1:12:20 AM: Starting composition “2021-08-30 00-26-30”.
-
-  Output To: D:\A downloads\!Team B\Team B RT\tutorial.avi      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.  After Effects error: An output module stopped responding. The file may be damaged or corrupted. You may need to restart After Effects.
