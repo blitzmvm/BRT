@@ -1,0 +1,1 @@
+--[[Bender Script for https://www.roblox.com/games/654732683/Car-Crushers-2]]local a=game.Players.LocalPlayer;while wait()do game.ReplicatedStorage.rF.SpawnVehicle:InvokeServer("Honda_4")wait(1.5)for b=1,15 do workspace.CarCollection[a.Name]:MoveTo(a.Character.HumanoidRootPart.Position+Vector3.new(0,100,0))wait(1)end end

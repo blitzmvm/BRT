@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thatchrisie/squidGameScript/main/README.md",true))()

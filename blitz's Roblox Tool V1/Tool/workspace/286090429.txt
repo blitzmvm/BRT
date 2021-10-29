@@ -1,0 +1,1 @@
+{"Tracers":true,"Aim Part":"Head","ESP":true,"Show FOV":true,"Team Check":true,"Aimbot":true,"Wallbang":true,"Smoothness":"1","FOV Radius":"115"}

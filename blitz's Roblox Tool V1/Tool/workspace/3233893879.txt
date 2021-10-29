@@ -1,0 +1,1 @@
+{"Aimbot":true,"Wallbang":true,"ESP":true,"Aim Part":"Head","Smoothness":"1","Tracers":true,"Silent Aim":true,"Fire Rate":"300"}

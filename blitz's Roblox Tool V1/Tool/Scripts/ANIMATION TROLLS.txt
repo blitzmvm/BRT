@@ -1,0 +1,605 @@
+-- for roblox
+-- this is the shit
+-- made by yours truly nutzzr4kids
+
+-- Instances:
+
+local TrollingGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Shadow = Instance.new("Frame")
+local Name = Instance.new("TextLabel")
+local Credit = Instance.new("TextLabel")
+local Version = Instance.new("TextLabel")
+local ScriptsText = Instance.new("TextLabel")
+local GuisText = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local Btools = Instance.new("TextButton")
+local Fly = Instance.new("TextButton")
+local FEFling = Instance.new("TextButton")
+local FlingStopTEXT = Instance.new("TextButton")
+local MoneyGui = Instance.new("TextButton")
+local TopKekV4 = Instance.new("TextButton")
+local RevizAdmin = Instance.new("TextButton")
+local ShatterVast = Instance.new("TextButton")
+
+--Properties:
+
+TrollingGui.Name = "TrollingGui"
+TrollingGui.Parent = game.CoreGui
+TrollingGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = TrollingGui
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.Position = UDim2.new(0.364802957, 0, 0.179571658, 0)
+Main.Size = UDim2.new(0, 295, 0, 389)
+Main.Style = Enum.FrameStyle.RobloxRound
+Main.Active = true
+Main.Draggable = true
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Main
+Shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Shadow.BackgroundTransparency = 1.000
+Shadow.Position = UDim2.new(-0.018342603, 0, -0.0214520935, 0)
+Shadow.Size = UDim2.new(0, 475, 0, 21)
+
+Name.Name = "Name"
+Name.Parent = Shadow
+Name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Name.BorderSizePixel = 0
+Name.Position = UDim2.new(0, 0, 0.619047642, 0)
+Name.Size = UDim2.new(0, 292, 0, 34)
+Name.Font = Enum.Font.SourceSansBold
+Name.Text = "Troll Fuker"
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
+Credit.Name = "Credit"
+Credit.Parent = Shadow
+Credit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Credit.BorderSizePixel = 0
+Credit.Position = UDim2.new(0, 0, 16.5714283, 0)
+Credit.Size = UDim2.new(0, 290, 0, 34)
+Credit.Font = Enum.Font.SourceSansBold
+Credit.Text = "Created By Yours Truly: nutzzr4kids"
+Credit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credit.TextScaled = true
+Credit.TextSize = 14.000
+Credit.TextWrapped = true
+
+Version.Name = "Version"
+Version.Parent = Shadow
+Version.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Version.BackgroundTransparency = 1.000
+Version.BorderSizePixel = 0
+Version.Position = UDim2.new(0.0610526316, 0, 1.66666663, 0)
+Version.Size = UDim2.new(0, 231, 0, 27)
+Version.Font = Enum.Font.SourceSansBold
+Version.Text = "1.0"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextScaled = true
+Version.TextSize = 14.000
+Version.TextWrapped = true
+
+ScriptsText.Name = "ScriptsText"
+ScriptsText.Parent = Shadow
+ScriptsText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsText.BackgroundTransparency = 1.000
+ScriptsText.Position = UDim2.new(0.0147368424, 0, 3.42857146, 0)
+ScriptsText.Size = UDim2.new(0, 133, 0, 25)
+ScriptsText.Font = Enum.Font.SourceSansBold
+ScriptsText.Text = "Scripts"
+ScriptsText.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsText.TextScaled = true
+ScriptsText.TextSize = 14.000
+ScriptsText.TextWrapped = true
+
+GuisText.Name = "GuisText"
+GuisText.Parent = Shadow
+GuisText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GuisText.BackgroundTransparency = 1.000
+GuisText.Position = UDim2.new(0.315789461, 0, 3.33333325, 0)
+GuisText.Size = UDim2.new(0, 133, 0, 25)
+GuisText.Font = Enum.Font.SourceSansBold
+GuisText.Text = "Guis"
+GuisText.TextColor3 = Color3.fromRGB(255, 255, 255)
+GuisText.TextScaled = true
+GuisText.TextSize = 14.000
+GuisText.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.Position = UDim2.new(0.966386557, 0, -0.053984575, 0)
+Close.Size = UDim2.new(0, 28, 0, 26)
+Close.Style = Enum.ButtonStyle.RobloxButtonDefault
+Close.Font = Enum.Font.SourceSansBold
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+Close.MouseButton1Down:connect(function()
+Main.Visible = false
+end)
+
+Btools.Name = "Btools"
+Btools.Parent = Main
+Btools.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Btools.Position = UDim2.new(0.00803193636, 0, 0.234138042, 0)
+Btools.Size = UDim2.new(0, 133, 0, 50)
+Btools.Style = Enum.ButtonStyle.RobloxButton
+Btools.Font = Enum.Font.Arial
+Btools.Text = "FE Btools"
+Btools.TextColor3 = Color3.fromRGB(255, 255, 255)
+Btools.TextScaled = true
+Btools.TextSize = 14.000
+Btools.TextWrapped = true
+Btools.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/LETNPL0E",true))()
+end)
+
+Fly.Name = "Fly"
+Fly.Parent = Main
+Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fly.Position = UDim2.new(0.00803193636, 0, 0.401233137, 0)
+Fly.Size = UDim2.new(0, 133, 0, 50)
+Fly.Style = Enum.ButtonStyle.RobloxButton
+Fly.Font = Enum.Font.Arial
+Fly.Text = "(E) FE Fly"
+Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fly.TextScaled = true
+Fly.TextSize = 14.000
+Fly.TextWrapped = true
+Fly.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/6KVugL85",true))()
+end)
+
+FEFling.Name = "FE Fling"
+FEFling.Parent = Main
+FEFling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FEFling.Position = UDim2.new(0.00803193636, 0, 0.563186884, 0)
+FEFling.Size = UDim2.new(0, 133, 0, 50)
+FEFling.Style = Enum.ButtonStyle.RobloxButton
+FEFling.Font = Enum.Font.Arial
+FEFling.Text = "FE Fling"
+FEFling.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEFling.TextScaled = true
+FEFling.TextSize = 14.000
+FEFling.TextWrapped = true
+FEFling.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/XaZdKwNe",true))()
+end)
+
+FlingStopTEXT.Name = "FlingStopTEXT"
+FlingStopTEXT.Parent = Main
+FlingStopTEXT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlingStopTEXT.Position = UDim2.new(0.00803193636, 0, 0.725140572, 0)
+FlingStopTEXT.Size = UDim2.new(0, 133, 0, 50)
+FlingStopTEXT.Style = Enum.ButtonStyle.RobloxButton
+FlingStopTEXT.Font = Enum.Font.Arial
+FlingStopTEXT.Text = "To Stop Flinging Reset!"
+FlingStopTEXT.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlingStopTEXT.TextScaled = true
+FlingStopTEXT.TextSize = 14.000
+FlingStopTEXT.TextWrapped = true
+
+MoneyGui.Name = "MoneyGui"
+MoneyGui.Parent = Main
+MoneyGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MoneyGui.Position = UDim2.new(0.519896328, 0, 0.234138042, 0)
+MoneyGui.Size = UDim2.new(0, 133, 0, 50)
+MoneyGui.Style = Enum.ButtonStyle.RobloxButton
+MoneyGui.Font = Enum.Font.Arial
+MoneyGui.Text = "$$$ Gui"
+MoneyGui.TextColor3 = Color3.fromRGB(255, 255, 255)
+MoneyGui.TextScaled = true
+MoneyGui.TextSize = 14.000
+MoneyGui.TextWrapped = true
+MoneyGui.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/8BpTrUcs",true))()
+end)
+
+TopKekV4.Name = "TopKekV4"
+TopKekV4.Parent = Main
+TopKekV4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopKekV4.Position = UDim2.new(0.519896328, 0, 0.401233137, 0)
+TopKekV4.Size = UDim2.new(0, 133, 0, 50)
+TopKekV4.Style = Enum.ButtonStyle.RobloxButton
+TopKekV4.Font = Enum.Font.Arial
+TopKekV4.Text = "TopKek 4.0 (Synapse)"
+TopKekV4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TopKekV4.TextScaled = true
+TopKekV4.TextSize = 14.000
+TopKekV4.TextWrapped = true
+TopKekV4.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/pC7nDQZv",true))()
+end)
+
+RevizAdmin.Name = "RevizAdmin"
+RevizAdmin.Parent = Main
+RevizAdmin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RevizAdmin.Position = UDim2.new(0.519896328, 0, 0.563186884, 0)
+RevizAdmin.Size = UDim2.new(0, 133, 0, 50)
+RevizAdmin.Style = Enum.ButtonStyle.RobloxButton
+RevizAdmin.Font = Enum.Font.Arial
+RevizAdmin.Text = "Reviz Admin"
+RevizAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
+RevizAdmin.TextScaled = true
+RevizAdmin.TextSize = 14.000
+RevizAdmin.TextWrapped = true
+RevizAdmin.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/yDbGCLMS",true))()
+end)
+
+ShatterVast.Name = "ShatterVast"
+ShatterVast.Parent = Main
+ShatterVast.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShatterVast.Position = UDim2.new(0.519896328, 0, 0.725140572, 0)
+ShatterVast.Size = UDim2.new(0, 133, 0, 50)
+ShatterVast.Style = Enum.ButtonStyle.RobloxButton
+ShatterVast.Font = Enum.Font.Arial
+ShatterVast.Text = "ShatterVast Admin"
+ShatterVast.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShatterVast.TextScaled = true
+ShatterVast.TextSize = 14.000
+ShatterVast.TextWrapped = true
+RevizAdmin.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ZFbjppMT",true))()
+end)
+
+-- Scripts:
+
+local function OOYZUTS_fake_script() -- Name.RainbowifyText 
+	local script = Instance.new('LocalScript', Name)
+
+	--//SHADZYDEV//--
+	local r = {
+		Color3.fromRGB(254, 0, 0);		--red
+		Color3.fromRGB(255, 127, 0);	--orange
+		Color3.fromRGB(255, 221, 1);	--yellow
+		Color3.fromRGB(0, 200, 0);		--green
+		Color3.fromRGB(0, 160, 199);	--light blue
+		Color3.fromRGB(0, 55, 230);		--dark blue
+		Color3.fromRGB(129, 16, 210)}	--purple
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+		TextColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(OOYZUTS_fake_script)()
+local function LPKYFXL_fake_script() -- Credit.RainbowifyText 
+	local script = Instance.new('LocalScript', Credit)
+
+	--//SHADZYDEV//--
+	local r = {
+		Color3.fromRGB(254, 0, 0);		--red
+		Color3.fromRGB(255, 127, 0);	--orange
+		Color3.fromRGB(255, 221, 1);	--yellow
+		Color3.fromRGB(0, 200, 0);		--green
+		Color3.fromRGB(0, 160, 199);	--light blue
+		Color3.fromRGB(0, 55, 230);		--dark blue
+		Color3.fromRGB(129, 16, 210)}	--purple
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+		TextColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(LPKYFXL_fake_script)()
+local function FUHMHHX_fake_script() -- Version.RainbowifyText 
+	local script = Instance.new('LocalScript', Version)
+
+	--//SHADZYDEV//--
+	local r = {
+		Color3.fromRGB(254, 0, 0);		--red
+		Color3.fromRGB(255, 127, 0);	--orange
+		Color3.fromRGB(255, 221, 1);	--yellow
+		Color3.fromRGB(0, 200, 0);		--green
+		Color3.fromRGB(0, 160, 199);	--light blue
+		Color3.fromRGB(0, 55, 230);		--dark blue
+		Color3.fromRGB(129, 16, 210)}	--purple
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+		TextColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(FUHMHHX_fake_script)()
+local function DTTV_fake_script() -- ScriptsText.RainbowifyText 
+	local script = Instance.new('LocalScript', ScriptsText)
+
+	--//SHADZYDEV//--
+	local r = {
+		Color3.fromRGB(254, 0, 0);		--red
+		Color3.fromRGB(255, 127, 0);	--orange
+		Color3.fromRGB(255, 221, 1);	--yellow
+		Color3.fromRGB(0, 200, 0);		--green
+		Color3.fromRGB(0, 160, 199);	--light blue
+		Color3.fromRGB(0, 55, 230);		--dark blue
+		Color3.fromRGB(129, 16, 210)}	--purple
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+		TextColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(DTTV_fake_script)()
+local function QNZAD_fake_script() -- GuisText.RainbowifyText 
+	local script = Instance.new('LocalScript', GuisText)
+
+	--//SHADZYDEV//--
+	local r = {
+		Color3.fromRGB(254, 0, 0);		--red
+		Color3.fromRGB(255, 127, 0);	--orange
+		Color3.fromRGB(255, 221, 1);	--yellow
+		Color3.fromRGB(0, 200, 0);		--green
+		Color3.fromRGB(0, 160, 199);	--light blue
+		Color3.fromRGB(0, 55, 230);		--dark blue
+		Color3.fromRGB(129, 16, 210)}	--purple
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+		TextColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(QNZAD_fake_script)()
+local function REEILR_fake_script() -- Close.RainbowifyText 
+	local script = Instance.new('LocalScript', Close)
+
+	--//SHADZYDEV//--
+	local r = {
+		Color3.fromRGB(254, 0, 0);		--red
+		Color3.fromRGB(255, 127, 0);	--orange
+		Color3.fromRGB(255, 221, 1);	--yellow
+		Color3.fromRGB(0, 200, 0);		--green
+		Color3.fromRGB(0, 160, 199);	--light blue
+		Color3.fromRGB(0, 55, 230);		--dark blue
+		Color3.fromRGB(129, 16, 210)}	--purple
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+		TextColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(REEILR_fake_script)()
+local function CJMPQ_fake_script() -- Btools.RainbowifyText 
+	local script = Instance.new('LocalScript', Btools)
+
+	--//SHADZYDEV//--
+	local r = {
+		Color3.fromRGB(254, 0, 0);		--red
+		Color3.fromRGB(255, 127, 0);	--orange
+		Color3.fromRGB(255, 221, 1);	--yellow
+		Color3.fromRGB(0, 200, 0);		--green
+		Color3.fromRGB(0, 160, 199);	--light blue
+		Color3.fromRGB(0, 55, 230);		--dark blue
+		Color3.fromRGB(129, 16, 210)}	--purple
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+		TextColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(CJMPQ_fake_script)()
+local function NEJZQSF_fake_script() -- Fly.RainbowifyText 
+	local script = Instance.new('LocalScript', Fly)
+
+	--//SHADZYDEV//--
+	local r = {
+		Color3.fromRGB(254, 0, 0);		--red
+		Color3.fromRGB(255, 127, 0);	--orange
+		Color3.fromRGB(255, 221, 1);	--yellow
+		Color3.fromRGB(0, 200, 0);		--green
+		Color3.fromRGB(0, 160, 199);	--light blue
+		Color3.fromRGB(0, 55, 230);		--dark blue
+		Color3.fromRGB(129, 16, 210)}	--purple
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+		TextColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(NEJZQSF_fake_script)()
+local function QYUCAZ_fake_script() -- FEFling.RainbowifyText 
+	local script = Instance.new('LocalScript', FEFling)
+
+	--//SHADZYDEV//--
+	local r = {
+		Color3.fromRGB(254, 0, 0);		--red
+		Color3.fromRGB(255, 127, 0);	--orange
+		Color3.fromRGB(255, 221, 1);	--yellow
+		Color3.fromRGB(0, 200, 0);		--green
+		Color3.fromRGB(0, 160, 199);	--light blue
+		Color3.fromRGB(0, 55, 230);		--dark blue
+		Color3.fromRGB(129, 16, 210)}	--purple
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+		TextColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(QYUCAZ_fake_script)()
+local function IJOGCM_fake_script() -- FlingStopTEXT.RainbowifyText 
+	local script = Instance.new('LocalScript', FlingStopTEXT)
+
+	--//SHADZYDEV//--
+	local r = {
+		Color3.fromRGB(254, 0, 0);		--red
+		Color3.fromRGB(255, 127, 0);	--orange
+		Color3.fromRGB(255, 221, 1);	--yellow
+		Color3.fromRGB(0, 200, 0);		--green
+		Color3.fromRGB(0, 160, 199);	--light blue
+		Color3.fromRGB(0, 55, 230);		--dark blue
+		Color3.fromRGB(129, 16, 210)}	--purple
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+		TextColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(IJOGCM_fake_script)()
+local function PSNBZTM_fake_script() -- MoneyGui.RainbowifyText 
+	local script = Instance.new('LocalScript', MoneyGui)
+
+	--//SHADZYDEV//--
+	local r = {
+		Color3.fromRGB(254, 0, 0);		--red
+		Color3.fromRGB(255, 127, 0);	--orange
+		Color3.fromRGB(255, 221, 1);	--yellow
+		Color3.fromRGB(0, 200, 0);		--green
+		Color3.fromRGB(0, 160, 199);	--light blue
+		Color3.fromRGB(0, 55, 230);		--dark blue
+		Color3.fromRGB(129, 16, 210)}	--purple
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+		TextColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(PSNBZTM_fake_script)()
+local function DOVZOYB_fake_script() -- TopKekV4.RainbowifyText 
+	local script = Instance.new('LocalScript', TopKekV4)
+
+	--//SHADZYDEV//--
+	local r = {
+		Color3.fromRGB(254, 0, 0);		--red
+		Color3.fromRGB(255, 127, 0);	--orange
+		Color3.fromRGB(255, 221, 1);	--yellow
+		Color3.fromRGB(0, 200, 0);		--green
+		Color3.fromRGB(0, 160, 199);	--light blue
+		Color3.fromRGB(0, 55, 230);		--dark blue
+		Color3.fromRGB(129, 16, 210)}	--purple
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+		TextColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(DOVZOYB_fake_script)()
+local function CKHRDNI_fake_script() -- RevizAdmin.RainbowifyText 
+	local script = Instance.new('LocalScript', RevizAdmin)
+
+	--//SHADZYDEV//--
+	local r = {
+		Color3.fromRGB(254, 0, 0);		--red
+		Color3.fromRGB(255, 127, 0);	--orange
+		Color3.fromRGB(255, 221, 1);	--yellow
+		Color3.fromRGB(0, 200, 0);		--green
+		Color3.fromRGB(0, 160, 199);	--light blue
+		Color3.fromRGB(0, 55, 230);		--dark blue
+		Color3.fromRGB(129, 16, 210)}	--purple
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+		TextColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(CKHRDNI_fake_script)()
+local function KMSSZ_fake_script() -- ShatterVast.RainbowifyText 
+	local script = Instance.new('LocalScript', ShatterVast)
+
+	--//SHADZYDEV//--
+	local r = {
+		Color3.fromRGB(254, 0, 0);		--red
+		Color3.fromRGB(255, 127, 0);	--orange
+		Color3.fromRGB(255, 221, 1);	--yellow
+		Color3.fromRGB(0, 200, 0);		--green
+		Color3.fromRGB(0, 160, 199);	--light blue
+		Color3.fromRGB(0, 55, 230);		--dark blue
+		Color3.fromRGB(129, 16, 210)}	--purple
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1]
+	i = 1
+	while true do
+	local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+		TextColor3 = r[i]})
+	tween:Play()
+	repeat wait() until tween.Completed
+	wait(0.1)
+	if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(KMSSZ_fake_script)()
